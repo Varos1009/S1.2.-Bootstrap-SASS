@@ -23,6 +23,14 @@ $secondary: #FA5959;
     }
 }
 
+.card1 {
+    max-width: 30rem;
+}
+
+.card2 {
+    width: 16rem;
+}
+
 .image-section1 {
     position: relative;
     z-index: 1;
@@ -63,6 +71,25 @@ $secondary: #FA5959;
     border-bottom: 3px solid #dc3545 !important;
 }
 
+.foto{
+    width: 100px;
+    height: 100px;
+}
+
+.chrome {
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+.firefox {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.opera {
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
 
 .accordion-button:not(.collapsed) {
     background-color: transparent;
