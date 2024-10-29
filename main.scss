@@ -1,0 +1,78 @@
+$primary: #5265E1;
+$secondary: #FA5959;
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/variables";
+
+.btn-primary {
+    background-color: $primary;
+    border-color: $primary;
+
+    &:hover {
+        background-color: darken($primary, 10%);
+        border-color: darken($primary, 10%);
+    }
+}
+
+.btn-danger {
+    background-color: $secondary;
+    border-color: $secondary;
+
+    &:hover {
+        background-color: darken($secondary, 10%);
+        border-color: darken($secondary, 10%);
+    }
+}
+
+.image-section1 {
+    position: relative;
+    z-index: 1;
+}
+
+.blue-image-right {
+    position: absolute;
+    z-index: -1;
+    left: 30%;
+    width: 85%;
+    height: 70%;
+    top: 30%;
+    background: #5266df;
+    border-bottom-left-radius: 8rem;
+}
+
+.blue-image-left {
+    position: absolute;
+    z-index: -1;
+    right: 30%;
+    width: 90%;
+    height: 85%;
+    top: 25%;
+    background: #5266df;
+    border-bottom-right-radius: 8rem;
+}
+
+@media (max-width: 768px) {
+    .nav-tabs {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+}
+
+
+.nav-link.active {
+    border-bottom: 3px solid #dc3545 !important;
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color: inherit;
+    box-shadow: none;
+}
+
+.accordion-button:focus,
+.accordion-button:active {
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
