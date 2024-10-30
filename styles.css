@@ -11844,6 +11844,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  overflow-x: hidden;
+}
+
 .btn-primary {
   background-color: #5265E1;
   border-color: #5265E1;
@@ -11880,6 +11884,7 @@ textarea.form-control-lg {
   z-index: -1;
   left: 30%;
   width: 85%;
+  max-width: 100%;
   height: 70%;
   top: 30%;
   background: #5266df;
@@ -11891,6 +11896,7 @@ textarea.form-control-lg {
   z-index: -1;
   right: 30%;
   width: 90%;
+  max-width: 100%;
   height: 85%;
   top: 25%;
   background: #5266df;
@@ -11908,7 +11914,7 @@ textarea.form-control-lg {
   border-bottom: 3px solid #dc3545 !important;
 }
 
-.card-img-top {
+.foto {
   width: 100px;
   height: 100px;
 }
